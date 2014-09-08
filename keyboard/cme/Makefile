@@ -39,7 +39,7 @@
 #----------------------------------------------------------------------------
 
 # Target file name (without extension).
-TARGET = gh60_pjrc
+TARGET = cme_keyboard
 
 # Directory common source filess exist
 TOP_DIR = ../..
@@ -48,7 +48,8 @@ TOP_DIR = ../..
 TARGET_DIR = .
 
 # project specific files
-SRC =	keymap_common.c \
+SRC = keymap_common.c \
+	keymap.c \
 	matrix.c \
 	led.c
 
